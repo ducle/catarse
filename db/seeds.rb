@@ -83,8 +83,8 @@ puts 'Seeding the database...'
 end
 
 OauthProvider.find_or_create_by!(name: 'facebook') do |o|
-  o.key = 'your_facebook_app_key'
-  o.secret = 'your_facebook_app_secret'
+  o.key = '1777436639139138'
+  o.secret = '139e02bc29ebace94c49b8ec609b2bfe'
   o.path = 'facebook'
 end
 
